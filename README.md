@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://trohit920.github.io"><img src="https://img.shields.io/badge/Portfolio-trohit920.github.io-3987e5?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/rohit-ai/"><img src="https://img.shields.io/badge/LinkedIn-in%2Frohit--ai-0a66c2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:trohit920@gmail.com"><img src="https://img.shields.io/badge/Email-trohit920%40gmail.com-199e70?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <img src="https://img.shields.io/badge/Experience-8%2B%20years-9085e9?style=flat-square" alt="8+ years">
 </p>
