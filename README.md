@@ -1,7 +1,7 @@
 <h1 align="center">Rohit Thakur</h1>
 
 <p align="center">
-  <b>AI/ML Engineer</b> &nbsp;·&nbsp; Seoul, South Korea<br>
+  <b>AI/ML Engineering Lead</b> &nbsp;·&nbsp; Seoul, South Korea<br>
   Agentic LLM systems · Uncertainty &amp; evaluation · Real-time edge vision
 </p>
 
@@ -23,6 +23,10 @@ That means agentic LLM applications with measured evaluation rather than vibes,
 real-time computer vision tuned to run on edge silicon, and the manufacturing
 analytics that connect a sensor reading to a business decision.
 
+I've led AI delivery as an engineering manager (SAFe, edge computer-vision
+products), and today I ship with AI-augmented teams: I set the direction, the
+quality gates and the evaluation; engineers and coding agents build.
+
 Currently at **eMoldino**, building a manufacturing intelligence platform on
 AWS Bedrock, LangGraph and Snowflake.
 
@@ -33,8 +37,10 @@ AWS Bedrock, LangGraph and Snowflake.
 | Project | What it does |
 |---|---|
 | **[llm-uncertainty-quantification](https://github.com/trohit920/llm-uncertainty-quantification)** | Token- and sentence-level uncertainty for local LLMs. Semantic entropy via NLI clustering, calibration, risk-coverage, bootstrap CIs. Found a free single forward pass beating 10-sample semantic entropy, and traced exactly why. |
-| **CabinSense** | Real-time in-cabin driver and occupant monitoring. ONNX face detection, 98-point landmarks, head-pose geometry and a multi-task classifier, INT8-quantized for SoC deployment. |
-| **Agentic RAG with Guardrails** | Fully local agentic RAG with hybrid retrieval, NLI groundedness checks, prompt-injection defense and a judge-free evaluation harness. |
+| **[CabinSense](https://github.com/trohit920/cabinsense)** | Real-time in-cabin driver and occupant monitoring. ONNX face detection, 98-point landmarks, head-pose geometry and a multi-task classifier, INT8-quantized for SoC deployment. |
+| **[Agentic RAG with Guardrails](https://github.com/trohit920/agentic-rag-guardrails)** | Fully local agentic RAG with hybrid retrieval, NLI groundedness checks, prompt-injection defense and a judge-free evaluation harness. |
+| **[StreamRec](https://github.com/trohit920/streamrec)** | Two-stage recommender and hybrid search on MovieLens-1M: two-tower and SASRec retrieval, LambdaMART ranking, LinUCB re-ranking, cold start, dense+BM25 search, FastAPI serving. Showed exactly which stage the wins come from, and what the ranker costs in latency. |
+| **[Kursi Kushti](https://kursikushti.pages.dev)** | A live, free 3D satirical fighting game in the browser that I led end to end as an AI-augmented build. Commissioned caricatures were turned into 12 3D fighters with an image-to-3D model (SF3D) on a 6 GB GPU, auto-skinned onto a deterministic 60 Hz game core (~3,850 tests), with bilingual trailers generated from gameplay and CI deploys to Cloudflare Pages. |
 
 ---
 
@@ -75,6 +81,6 @@ English (fluent) · Korean (professional working) · Hindi (native)
 ---
 
 <p align="center">
-  <i>Open to AI/ML engineering roles — agentic systems, evaluation and reliability, or real-time vision.</i><br>
+  <i>Open to AI engineering lead and manager roles, and senior technical roles — agentic systems, evaluation and reliability, or real-time vision.</i><br>
   <a href="https://trohit920.github.io">trohit920.github.io</a>
 </p>
