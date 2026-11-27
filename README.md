@@ -41,6 +41,27 @@ AWS Bedrock, LangGraph and Snowflake.
 | **[Agentic RAG with Guardrails](https://github.com/trohit920/agentic-rag-guardrails)** | Fully local agentic RAG with hybrid retrieval, NLI groundedness checks, prompt-injection defense and a judge-free evaluation harness. |
 | **[StreamRec](https://github.com/trohit920/streamrec)** | Two-stage recommender and hybrid search on MovieLens-1M: two-tower and SASRec retrieval, LambdaMART ranking, LinUCB re-ranking, cold start, dense+BM25 search, FastAPI serving. Showed exactly which stage the wins come from, and what the ranker costs in latency. |
 | **[Kursi Kushti](https://kursikushti.pages.dev)** | A live, free 3D satirical fighting game in the browser that I led end to end as an AI-augmented build. Commissioned caricatures were turned into 12 3D fighters with an image-to-3D model (SF3D) on a 6 GB GPU, auto-skinned onto a deterministic 60 Hz game core (~3,850 tests), with bilingual trailers generated from gameplay and CI deploys to Cloudflare Pages. |
+| **[fire-detection-yolov5](https://github.com/trohit920/fire-detection-yolov5)** | YOLOv5x fire detector with full training logs and a 5-fold evaluation script: mAP@0.5 0.977 +/- 0.011 across folds, with an honest note on how the folds overlap with checkpoint selection. |
+| **[hand-raise-detection-mediapipe](https://github.com/trohit920/hand-raise-detection-mediapipe)** | Training-free hand-raise detection: BlazePose landmarks, a transparent hand-above-mouth rule, person-box matching and a one-to-one matching evaluator, with unit tests. |
+| **[pantograph-catenary-contact-detection](https://github.com/trohit920/pantograph-catenary-contact-detection)** | Design note for finding the pantograph-catenary contact point on a train-roof camera: coarse-to-fine YOLO, Hough-line wire geometry and KCF tracking on Jetson Xavier NX. |
+| **[cv-dataset-utils](https://github.com/trohit920/cv-dataset-utils)** | Small, tested, dependency-free tools for preparing YOLO datasets: VOC conversion, seeded splits, label hygiene, event frame ranges. |
+
+---
+
+### Computer vision and edge work (2021 to 2024, private repositories)
+
+Delivered for clients and products; code is private, numbers come from my own training logs.
+
+| Area | What I built | Result |
+|---|---|---|
+| Construction-site safety | YOLOv5x PPE detector (belt, hook, shoes, hard hat, worn / not worn) plus a person-then-helmet two-stage pipeline on live RTSP cameras | mAP@0.5 0.993, mAP@0.5:0.95 0.887 on 8 classes (validation split) |
+| CCTV safety service | YOLOv5 + DeepSORT tracking, RetinaFace/FaceNet face ID, PTZ camera steering, REST API and database | end-to-end service |
+| Robot vision for pick-and-place | Camera calibration, rotated part pose estimation, pixel-to-robot mapping, robot and feeder TCP control, web UI on an ARM vision box | deployed product |
+| Edge people counting | YOLOv8n INT8 on a Rockchip RK3566 NPU, OC-SORT tracking, line-crossing counts, web dashboard | real-time on a low-cost board |
+| Face / fire / hand-raise detection | YOLOv8 faces, YOLOv5 fire, MediaPipe hand-raise, evaluated against acceptance targets | face 96.6%, fire 97.7 (5-fold mAP@0.5), hand raise 91.0 |
+| PCB defect detection | darknet YOLOv3 / YOLOv4 at 416 and 608 px, 6 defect classes | mAP@0.5 up to 90% (YOLOv4-608) |
+| Industrial sensor analytics | 18-channel compressor fault classification (Conv1D/Conv2D/LSTM) with a Flask API | 95.7% validation accuracy (random-chunk split; see repo caveat) |
+| Korean speech recognition | DeepSpeech2, Transformer and Transducer models on 1,000 h of Korean speech | CER 0.25 (DeepSpeech2) |
 
 ---
 
